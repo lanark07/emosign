@@ -1,0 +1,18 @@
+# Runtime dependencies
+PyQt5==5.15.11
+opencv-python==4.13.0.92
+numpy==2.4.3
+pygame==2.6.1
+elevenlabs==2.44.0
+
+# PyTorch — install the CUDA-enabled build matching your GPU driver.
+# The project was trained/tested with CUDA 12.4 (cu124).
+# For CUDA 12.4:  pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+# For CPU only:   pip install torch==2.6.0 torchvision==0.21.0
+torch==2.6.0
+torchvision==0.21.0
+
+# Training only (not needed to just run the app)
+matplotlib==3.10.8
+tqdm==4.67.3
+Pillow

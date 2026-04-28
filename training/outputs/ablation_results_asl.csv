@@ -1,0 +1,7 @@
+timestamp,run_name,head,optimizer,scheduler,lr,weight_decay,momentum,dropout,label_smoothing,batch_size,augment,num_workers,epochs_trained,best_epoch,best_val_loss,best_val_acc,final_lr,best_model_path
+2026-04-21T19:50:00,v1,standard,adam,plateau,0.001,0.0,0.9,0.5,0.0,64,False,0,10,10,0.006456798807154862,0.997910447761194,0.001,D:\ma\weights\asl_v1.pth
+2026-04-21T20:19:18,v2,standard,adamw,cosine,0.0003,0.0,0.9,0.4,0.0,64,False,0,10,9,0.0037937321459129685,0.9987064676616916,1e-06,D:\ma\weights\asl_v2.pth
+2026-04-21T20:48:48,v3,deep,adamw,plateau,0.0005,0.0001,0.9,0.3,0.0,64,False,0,8,4,0.02041745513325455,0.9934328358208955,0.00025,D:\ma\weights\asl_v3.pth
+2026-04-22T00:06:42,v1,standard,adam,plateau,0.001,0.0,0.9,0.5,0.1,64,True,0,25,21,0.6922722928440986,0.9990049751243781,0.0005,D:\ma\weights\asl_v1.pth
+2026-04-22T02:33:11,v2,standard,adamw,cosine,0.0003,0.0,0.9,0.4,0.1,64,True,0,25,23,0.6848957923395717,0.9995024875621891,1e-06,D:\ma\weights\asl_v2.pth
+2026-04-22T16:14:15,v3,deep,adamw,plateau,0.0005,0.0001,0.9,0.3,0.1,64,True,0,25,25,0.6820525020865066,0.9991044776119403,0.0005,D:\ma\weights\asl_v3.pth
